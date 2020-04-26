@@ -1,0 +1,46 @@
+{
+	"catalogues": [
+		{
+			"abbreviation": "BWV",
+			"full": "Bach-Werke-Verzeichnis"
+		}
+	],
+	"sections": [
+		{
+			"abbreviation": "Mvmt.",
+			"full": "Movement"
+		}
+	],
+	"composers": [
+		{
+			"name": {
+				"fore": "Johann Sebastian",
+				"last": "Bach"
+			},
+			"works": [
+				{
+					"name": "Cello Suite No. 1",
+					"key": "G major",
+					"catalogue": [
+						{
+							"type": "BWV",
+							"index": 1007
+						}
+					],
+					"hasSections": true,
+					"sectionType": "Mvmt.",
+					"sections": [
+						{
+							"name": "Prélude",
+							"index": 1
+						},
+						{
+							"name": "Allemande",
+							"index": 2
+						}
+					]
+				}
+			]
+		}
+	]
+}
