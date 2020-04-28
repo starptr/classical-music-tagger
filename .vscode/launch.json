@@ -22,6 +22,9 @@
 				"<node_internals>/**"
 			],
 			"program": "${workspaceFolder}/index.js",
+			"args": [
+				"./music"
+			],
 			"console": "integratedTerminal"
 		}
 	]
