@@ -1,6 +1,10 @@
 {
 	"catalogues": [
 		{
+			"abbreviation": "Op.",
+			"full": "Opus"
+		},
+		{
 			"abbreviation": "BWV",
 			"full": "Bach-Werke-Verzeichnis"
 		}
@@ -12,6 +16,40 @@
 		}
 	],
 	"composers": [
+		{
+			"name": {
+				"fore": "Pyotr Ilyich",
+				"last": "Tchaikovsky"
+			},
+			"works": [
+				{
+					"name": "Piano Concerto No. 1",
+					"key": "B♭ minor",
+					"catalogue": [
+						{
+							"type": "Op.",
+							"index": 23
+						}
+					],
+					"hasSections": true,
+					"sectionType": "Mvmt.",
+					"sections": [
+						{
+							"name": "Allegro non troppo e molto maestoso – Allegro con spirito",
+							"index": 1
+						},
+						{
+							"name": "Andantino semplice – Prestissimo – Tempo I",
+							"index": 2
+						},
+						{
+							"name": "Allegro con fuoco – Molto meno mosso – Allegro vivo",
+							"index": 3
+						}
+					]
+				}
+			]
+		},
 		{
 			"name": {
 				"fore": "Johann Sebastian",
@@ -37,6 +75,26 @@
 						{
 							"name": "Allemande",
 							"index": 2
+						},
+						{
+							"name": "Courante",
+							"index": 3
+						},
+						{
+							"name": "Sarabande",
+							"index": 4
+						},
+						{
+							"name": "Menuett I",
+							"index": 5
+						},
+						{
+							"name": "Menuett II",
+							"index": 6
+						},
+						{
+							"name": "Gigue",
+							"index": 7
 						}
 					]
 				}
